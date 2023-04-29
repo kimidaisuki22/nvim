@@ -1,0 +1,6 @@
+
+
+## Path
+This repo should be placed into 
+- 	Unix			~/.config/nvim/
+-	Windows			~/AppData/Local/nvim/
