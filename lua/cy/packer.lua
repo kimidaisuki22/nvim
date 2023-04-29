@@ -28,4 +28,7 @@ return require('packer').startup(function(use)
 
 -- Undotree
     use("mbbill/undotree")
+
+-- Git
+    use("tpope/vim-fugitive")
 end)
