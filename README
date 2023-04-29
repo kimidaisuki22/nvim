@@ -4,3 +4,15 @@
 This repo should be placed into 
 - 	Unix			~/.config/nvim/
 -	Windows			~/AppData/Local/nvim/
+
+
+## Add plugin manager
+
+Main page: https://github.com/wbthomason/packer.nvim
+
+install packer:
+-	Linux	git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+-	Windows	git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+
+
+use ':PackerSync' to sync plugins.
