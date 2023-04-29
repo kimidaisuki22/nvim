@@ -16,5 +16,10 @@ return require('packer').startup(function(use)
 
 -- Theme
   use({ 'rose-pine/neovim', as = 'rose-pine' })
-  
+
+-- Treesitter
+--  In vim
+--  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+--  In Neovim
+    use({ 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}})
 end)
