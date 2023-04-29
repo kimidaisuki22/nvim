@@ -25,4 +25,7 @@ return require('packer').startup(function(use)
 
 -- Harpoon, files pool for fast switch by 'ThePrimeagen'
     use("ThePrimeagen/harpoon")
+
+-- Undotree
+    use("mbbill/undotree")
 end)
