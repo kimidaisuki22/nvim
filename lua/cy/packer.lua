@@ -17,9 +17,12 @@ return require('packer').startup(function(use)
 -- Theme
   use({ 'rose-pine/neovim', as = 'rose-pine' })
 
--- Treesitter
+-- Treesitter * Syntax Highlight & parse *
 --  In vim
 --  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 --  In Neovim
     use({ 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}})
+
+-- Harpoon, files pool for fast switch by 'ThePrimeagen'
+    use("ThePrimeagen/harpoon")
 end)
